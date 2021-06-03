@@ -1,0 +1,14 @@
+# the initial variables need to be adjusted according to real life numbers
+
+account = 100
+interest_rate = .04
+years = 50
+
+print('Initial amount ' + str(account) + ' dollars.'
+
+counter = 1
+while counter <= years:
+  accrued_interest = account * interest_rate
+  account += accurued_interest
+  print('year ' + str(counter) + ': ' + str(account))
+  counter += 1
